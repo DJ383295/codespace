@@ -3,6 +3,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
+int string_length(string s);
+
 int main(void)
 {
     // Prompt for user's name
@@ -16,3 +18,5 @@ int main(void)
     }
     printf("%i\n", n);
 }
+
+int string_length(string s)
