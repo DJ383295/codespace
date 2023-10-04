@@ -9,7 +9,7 @@ int main(void)
 {
     // Prompt for user's name
     string name = get_string("Name: ");
-    int length = string_length(name)
+    int length = string_length(name);
     printf("%i\n", length);
 }
 
